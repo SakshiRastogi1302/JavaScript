@@ -1,0 +1,22 @@
+1. JavaScript is not a class-based object oriented programming language.But, it still have ways of using OOP.
+
+2. Class based object oriented programming language is a style of Object-oriented programming (OOP) in which 
+   inheritance occurs via defining classes of objects, instead of inheritance occurring via the objects alone.
+
+3. Prototype based programming language allows the creation of an object without first defining its class.
+
+4. let names = {
+    fname: "Dillion",
+    lname: "Megida"
+}
+console.log(names.fname);
+console.log(names.hasOwnProperty("mname"));
+// Expected Output
+// Dillion
+// false
+
+The object variable names has only two properties - fname and lname . No methods at all.
+
+5. What are methods?
+Ans. Methods are functions stored as object properties.
+
